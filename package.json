@@ -1,0 +1,7 @@
+{
+  "name": "groq-chatbot",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo \"const SECRET_CONFIG = { API_KEY: '$GROQ_API_KEY' };\" > apikey.js"
+  }
+}
